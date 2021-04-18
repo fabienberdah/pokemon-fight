@@ -1,0 +1,34 @@
+.Pokegame-hands {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.Pokegame-hand-title {
+  color: rgb(37 60 125);
+  margin-top: 30px;
+  font-size: 3rem;
+}
+
+.Pokegame-hand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pokegame-renderedHand {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Pokegame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winner {
+  font-size: 3rem;
+  color: rgb(12, 182, 12);
+}
